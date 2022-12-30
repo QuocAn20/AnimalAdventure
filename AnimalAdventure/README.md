@@ -1,5 +1,4 @@
-This is the final project of The 90's group.
-For more information, contact the group via gmail:
+This is the final project of The 90's group. For more information, contact the group via gmail:
 
 Annqce140124@fpt.edu.vn
 Toanlnce140335@fpt.edu.vn
