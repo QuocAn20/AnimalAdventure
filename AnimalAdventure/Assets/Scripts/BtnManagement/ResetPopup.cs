@@ -17,7 +17,7 @@ public class ResetPopup : MonoBehaviour
     {
         if (choice == 1)
         {
-            ResetOnClick();            
+            ResetGame();            
         }
         else
         {
@@ -25,7 +25,7 @@ public class ResetPopup : MonoBehaviour
         }
         resetPanel.SetActive(false); //else
     }
-    public void ResetOnClick()
+    public void ResetGame()
     {
         PlayerPrefs.DeleteAll();
     }
