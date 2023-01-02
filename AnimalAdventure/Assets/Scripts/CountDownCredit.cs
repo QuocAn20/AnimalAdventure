@@ -8,8 +8,6 @@ public class CountDownCredit : MonoBehaviour
 {
     [SerializeField]
     private float delayBeforeLoading = 21;
-    [SerializeField]
-    public string scenenext;
 
     private float timeElapsed;
     void Update()
@@ -17,7 +15,7 @@ public class CountDownCredit : MonoBehaviour
         timeElapsed += Time.deltaTime;
         if (timeElapsed > delayBeforeLoading)
         {
-            SceneManager.LoadScene(scenenext);
+            LoadingScene.instance.ChangSceneOnClick(0);
         }
     }
 }
