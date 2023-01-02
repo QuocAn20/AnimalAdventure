@@ -15,7 +15,12 @@ public class CountDownCredit : MonoBehaviour
         timeElapsed += Time.deltaTime;
         if (timeElapsed > delayBeforeLoading)
         {
-            LoadingScene.instance.ChangSceneOnClick(0);
+            LoadStartScene();  
         }
+    }
+    public void LoadStartScene()
+    {
+        //LoadingScene.instance.ChangSceneOnClick(0);
+        SceneManager.LoadScene("StartScene");
     }
 }
